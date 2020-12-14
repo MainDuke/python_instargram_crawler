@@ -6,8 +6,9 @@ from selenium.webdriver.common.keys import Keys
 def main_fun():
     baseUrl = 'https://instagram.com/'
     targetUrl = 'geonwoolee_art'
+    #chromeDriver = 크롬드라이버가 있는 위치를 넣자. 크롬 브라우저의 버전에 맞는 드라이버를 다운받아서 지정해야함!!
     chromeDriver = 'C:/test_insta/chromedriver_win32/chromedriver.exe'
-
+    
     user_id = ''
     user_pwd = ''
 
